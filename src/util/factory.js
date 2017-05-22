@@ -21,10 +21,10 @@ const ExceptionMessages = require('./exceptionMessages');
 
 
 const GoogleSheet = function (sheetReference, sheetName) {
-    var self = {};
+    let self = {};
 
     self.build = function () {
-        var sheet = new Sheet(sheetReference);
+        let sheet = new Sheet(sheetReference);
         sheet.exists(function(notFound) {
             if (notFound) {
                 displayErrorMessage(notFound);
@@ -39,7 +39,7 @@ const GoogleSheet = function (sheetReference, sheetName) {
 
         function displayErrorMessage(exception) {
             d3.selectAll(".loading").remove();
-            var message = 'Oops! It seems like there are some problems with loading your data. ';
+            let message = 'Oops! It seems like there are some problems with loading your data. ';
 
             if (exception instanceof MalformedDataError) {
                 message = message.concat(exception.message);
@@ -67,21 +67,24 @@ const GoogleSheet = function (sheetReference, sheetName) {
                 if (!sheetName) {
                     sheetName = tabletop.foundSheetNames[0];
                 }
-                var columnNames = tabletop.sheets(sheetName).columnNames;
+                let columnNames = tabletop.sheets(sheetName).columnNames;
 
-                var contentValidator = new ContentValidator(columnNames);
+                let contentValidator = new ContentValidator(columnNames);
                 contentValidator.verifyContent();
                 contentValidator.verifyHeaders();
 
-                var all = tabletop.sheets(sheetName).all();
-                var blips = _.map(all, new InputSanitizer().sanitize);
+                let all = tabletop.sheets(sheetName).all();
+
+                console.log(JSON.stringify(all, null, ' '));
+
+                let blips = _.map(all, new InputSanitizer().sanitize);
 
                 document.title = tabletop.googleSheetName;
                 d3.selectAll(".loading").remove();
 
-                var rings = _.map(_.uniqBy(blips, 'ring'), 'ring');
-                var ringMap = {};
-                var maxRings = 4;
+                let rings = _.map(_.uniqBy(blips, 'ring'), 'ring');
+                let ringMap = {};
+                let maxRings = 4;
 
                 _.each(rings, function (ringName, i) {
                     if (i == maxRings) {
@@ -90,7 +93,7 @@ const GoogleSheet = function (sheetReference, sheetName) {
                     ringMap[ringName] = new Ring(ringName, i);
                 });
 
-                var quadrants = {};
+                let quadrants = {};
                 _.each(blips, function (blip) {
                     if (!quadrants[blip.quadrant]) {
                         quadrants[blip.quadrant] = new Quadrant(_.capitalize(blip.quadrant));
@@ -98,12 +101,12 @@ const GoogleSheet = function (sheetReference, sheetName) {
                     quadrants[blip.quadrant].add(new Blip(blip.name, ringMap[blip.ring], blip.isNew.toLowerCase() === 'true', blip.topic, blip.description))
                 });
 
-                var radar = new Radar();
+                let radar = new Radar();
                 _.each(quadrants, function (quadrant) {
                     radar.addQuadrant(quadrant)
                 });
 
-                var size = (window.innerHeight - 133) < 620 ? 620 : window.innerHeight - 133;
+                let size = (window.innerHeight - 133) < 620 ? 620 : window.innerHeight - 133;
 
                 new GraphingRadar(size, radar).init().plot();
 
@@ -114,7 +117,7 @@ const GoogleSheet = function (sheetReference, sheetName) {
     };
 
     self.init = function () {
-        var content = d3.select('body')
+        let content = d3.select('body')
             .append('div')
             .attr('class', 'loading')
             .append('div')
@@ -124,7 +127,7 @@ const GoogleSheet = function (sheetReference, sheetName) {
 
         plotLogo(content);
 
-        var bannerText = '<h1>Building your radar...</h1><p>Your Technology Radar will be available in just a few seconds</p>';
+        let bannerText = '<h1>Building your radar...</h1><p>Your Technology Radar will be available in just a few seconds</p>';
         plotBanner(content, bannerText);
         plotFooter(content);
 
@@ -135,15 +138,15 @@ const GoogleSheet = function (sheetReference, sheetName) {
     return self;
 };
 
-var QueryParams = function (queryString) {
-    var decode = function (s) {
+let QueryParams = function (queryString) {
+    let decode = function (s) {
         return decodeURIComponent(s.replace(/\+/g, " "));
     };
 
-    var search = /([^&=]+)=?([^&]*)/g;
+    let search = /([^&=]+)=?([^&]*)/g;
 
-    var queryParams = {};
-    var match;
+    let queryParams = {};
+    let match;
     while (match = search.exec(queryString))
         queryParams[decode(match[1])] = decode(match[2]);
 
@@ -152,16 +155,16 @@ var QueryParams = function (queryString) {
 
 
 const GoogleSheetInput = function () {
-    var self = {};
+    let self = {};
 
     self.build = function () {
-        var queryParams = QueryParams(window.location.search.substring(1));
+        let queryParams = QueryParams(window.location.search.substring(1));
 
         if (queryParams.sheetId) {
-            var sheet = GoogleSheet(queryParams.sheetId, queryParams.sheetName);
+            let sheet = GoogleSheet(queryParams.sheetId, queryParams.sheetName);
             sheet.init().build();
         } else {
-            var content = d3.select('body')
+            let content = d3.select('body')
                 .append('div')
                 .attr('class', 'input-sheet');
 
@@ -169,7 +172,7 @@ const GoogleSheetInput = function () {
 
             plotLogo(content);
 
-            var bannerText = '<h1>Build your own radar</h1><p>Once you\'ve <a href ="https://info.thoughtworks.com/visualize-your-tech-strategy.html">created your Radar</a>, you can use this service' +
+            let bannerText = '<h1>Build your own radar</h1><p>Once you\'ve <a href ="https://info.thoughtworks.com/visualize-your-tech-strategy.html">created your Radar</a>, you can use this service' +
                 ' to generate an <br />interactive version of your Technology Radar. Not sure how? <a href ="https://info.thoughtworks.com/visualize-your-tech-strategy-guide.html">Read this first.</a></p>';
 
             plotBanner(content, bannerText);
@@ -223,7 +226,7 @@ function plotForm(content) {
         .append('p')
         .html('<strong>Enter the URL of your <a href="https://info.thoughtworks.com/visualize-your-tech-strategy-guide.html#publish-byor-sheet" target="_blank">published</a> Google Sheet below…</strong>');
 
-    var form = content.select('.input-sheet__form').append('form')
+    let form = content.select('.input-sheet__form').append('form')
         .attr('method', 'get');
 
     form.append('input')
