@@ -1,0 +1,1563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="108ef60a-d3a0-4d53-ad46-2ded75d261c6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools.yml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.istanbul.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.yarnrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ci/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ci/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ci/Vagrantfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ci/config.yml.sample" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ci/pipeline.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ci/scripts/retry" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ci/tasks/build.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ci/tasks/install.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ci/tasks/tests.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/abbrev-1.0.9.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/accepts-1.3.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/acorn-3.3.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/agent-base-2.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/ajv-4.11.8.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/align-text-0.1.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/alphanum-sort-1.0.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/amdefine-1.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/ansi-regex-2.1.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/ansi-styles-2.2.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/ansi-styles-3.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/anymatch-1.3.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/aproba-1.1.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/are-we-there-yet-1.1.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/argparse-1.0.9.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/arr-diff-2.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/arr-flatten-1.0.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/array-find-index-1.0.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/array-flatten-1.1.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/array-unique-0.2.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/arrify-1.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/asn1-0.2.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/assert-1.4.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/assert-plus-0.2.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/assert-plus-1.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/ast-types-0.9.8.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/async-0.2.10.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/async-0.9.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/async-1.5.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/async-2.4.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/async-each-1.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/async-foreach-0.1.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/asynckit-0.4.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/autoprefixer-6.7.7.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/aws-sign2-0.6.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/aws4-1.6.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/babel-code-frame-6.22.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/babel-core-6.24.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/babel-generator-6.24.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/babel-helpers-6.24.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/babel-loader-6.4.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/babel-messages-6.23.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/babel-register-6.24.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/babel-runtime-6.23.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/babel-template-6.24.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/babel-traverse-6.24.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/babel-types-6.24.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/babylon-6.17.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/babylon-7.0.0-beta.8.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/balanced-match-0.4.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/base64-js-1.2.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/batch-0.5.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/bcrypt-pbkdf-1.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/big.js-3.1.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/binary-extensions-1.8.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/block-stream-0.0.9.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/bluebird-3.5.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/boolbase-1.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/boom-2.10.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/brace-expansion-1.1.7.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/braces-1.8.5.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/browserify-aes-0.4.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/browserify-zlib-0.1.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/browserslist-1.7.7.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/buffer-4.9.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/buffer-shims-1.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/builtin-modules-1.1.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/builtin-status-codes-3.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/bytes-2.3.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/camel-case-3.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/camelcase-1.2.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/camelcase-2.1.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/camelcase-3.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/camelcase-keys-2.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/caniuse-api-1.6.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/caniuse-db-1.0.30000670.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/caseless-0.12.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/center-align-0.1.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/chalk-1.1.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/chance-1.0.8.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/chokidar-1.7.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/clap-1.1.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/clean-css-4.1.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/cli-table-0.3.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/cliclopts-1.1.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/cliui-2.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/cliui-3.2.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/clone-1.0.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/co-4.6.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/coa-1.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/code-point-at-1.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/color-0.11.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/color-convert-1.9.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/color-name-1.1.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/color-string-0.3.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/colormin-1.1.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/colors-1.0.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/colors-1.1.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/combined-stream-1.0.5.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/commander-2.9.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/commondir-1.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/compressible-2.0.10.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/compression-1.6.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/concat-map-0.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/connect-history-api-fallback-1.3.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/console-browserify-1.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/console-control-strings-1.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/constants-browserify-1.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/content-disposition-0.5.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/content-type-1.0.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/convert-source-map-1.5.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/cookie-0.3.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/cookie-signature-1.0.6.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/core-js-2.4.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/core-util-is-1.0.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/cross-spawn-3.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/cryptiles-2.0.5.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/crypto-browserify-3.3.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/css-color-names-0.0.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/css-loader-0.25.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/css-select-1.2.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/css-selector-tokenizer-0.6.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/css-selector-tokenizer-0.7.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/css-what-2.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/cssesc-0.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/cssnano-3.10.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/csso-2.3.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/currently-unhandled-0.4.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/cvss-1.0.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/d3-4.9.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/d3-array-1.2.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/d3-axis-1.0.7.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/d3-brush-1.0.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/d3-chord-1.0.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/d3-collection-1.0.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/d3-color-1.0.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/d3-dispatch-1.0.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/d3-drag-1.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/d3-dsv-1.0.5.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/d3-ease-1.0.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/d3-force-1.0.6.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/d3-format-1.2.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/d3-geo-1.6.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/d3-hierarchy-1.1.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/d3-interpolate-1.1.5.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/d3-path-1.0.5.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/d3-polygon-1.0.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/d3-quadtree-1.0.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/d3-queue-3.0.7.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/d3-random-1.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/d3-request-1.0.5.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/d3-scale-1.0.6.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/d3-selection-1.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/d3-shape-1.1.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/d3-time-1.0.6.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/d3-time-format-2.0.5.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/d3-timer-1.0.5.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/d3-tip-0.7.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/d3-transition-1.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/d3-voronoi-1.1.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/d3-zoom-1.2.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/dashdash-1.14.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/date-now-0.1.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/debug-2.2.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/debug-2.6.7.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/debug-2.6.8.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/decamelize-1.2.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/deep-extend-0.4.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/deep-is-0.1.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/defined-1.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/delayed-stream-1.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/delegates-1.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/depd-1.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/destroy-1.0.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/detect-indent-4.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/dom-converter-0.1.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/dom-serializer-0.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/domain-browser-1.1.7.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/domelementtype-1.1.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/domelementtype-1.3.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/domhandler-2.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/domhandler-2.4.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/domutils-1.1.6.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/domutils-1.5.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/domutils-1.6.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/ecc-jsbn-0.1.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/ee-first-1.1.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/electron-to-chromium-1.3.11.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/emojis-list-2.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/encodeurl-1.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/enhanced-resolve-0.9.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/entities-1.1.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/errno-0.1.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/error-ex-1.3.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/escape-html-1.0.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/escape-string-regexp-1.0.5.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/escodegen-1.8.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/esprima-2.7.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/esprima-3.1.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/estraverse-1.9.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/esutils-2.0.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/etag-1.8.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/eventemitter3-1.2.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/events-1.1.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/eventsource-0.1.6.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/exit-0.1.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/expand-brackets-0.1.5.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/expand-range-1.8.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/express-4.15.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/extend-3.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/extglob-0.3.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/extract-text-webpack-plugin-1.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/extsprintf-1.0.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/fast-levenshtein-2.0.6.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/fastparse-1.1.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/faye-websocket-0.10.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/faye-websocket-0.11.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/file-loader-0.9.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/filename-regex-2.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/fill-range-2.2.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/finalhandler-1.0.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/find-cache-dir-0.1.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/find-up-1.1.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/flatten-1.0.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/flow-parser-0.45.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/for-in-1.0.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/for-own-0.1.5.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/forever-agent-0.6.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/form-data-2.1.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/forwarded-0.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/fresh-0.5.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/fs.realpath-1.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/fsevents-1.1.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/fstream-1.0.11.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/fstream-ignore-1.0.5.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/function-bind-1.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/gauge-2.7.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/gaze-1.1.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/get-caller-file-1.0.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/get-stdin-4.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/get-stdin-5.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/getpass-0.1.7.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/glob-5.0.15.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/glob-7.1.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/glob-7.1.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/glob-base-0.3.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/glob-parent-2.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/globals-9.17.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/globule-1.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/graceful-fs-4.1.11.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/graceful-readlink-1.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/handlebars-4.0.10.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/har-schema-1.0.5.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/har-validator-4.2.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/has-1.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/has-ansi-2.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/has-flag-1.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/has-unicode-2.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/hawk-3.1.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/he-1.1.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/hoek-2.16.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/home-or-tmp-2.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/hosted-git-info-2.4.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/html-comment-regex-1.1.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/html-minifier-3.5.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/html-webpack-plugin-2.28.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/htmlparser2-3.3.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/htmlparser2-3.9.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/http-errors-1.5.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/http-errors-1.6.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/http-proxy-1.16.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/http-proxy-middleware-0.17.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/http-signature-1.1.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/https-browserify-0.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/https-proxy-agent-1.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/iconv-lite-0.4.17.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/icss-replace-symbols-1.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/ieee754-1.1.8.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/in-publish-2.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/indent-string-2.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/indexes-of-1.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/indexof-0.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/inflight-1.0.6.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/inherits-2.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/inherits-2.0.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/ini-1.3.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/interpret-0.6.6.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/invariant-2.2.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/invert-kv-1.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/ipaddr.js-1.3.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/is-absolute-url-2.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/is-arrayish-0.2.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/is-binary-path-1.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/is-buffer-1.1.5.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/is-builtin-module-1.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/is-dotfile-1.0.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/is-equal-shallow-0.1.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/is-extendable-0.1.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/is-extglob-1.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/is-extglob-2.1.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/is-finite-1.0.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/is-fullwidth-code-point-1.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/is-glob-2.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/is-glob-3.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/is-number-2.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/is-plain-obj-1.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/is-posix-bracket-0.1.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/is-primitive-2.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/is-svg-2.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/is-typedarray-1.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/is-utf8-0.2.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/isarray-0.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/isarray-1.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/isemail-1.2.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/isexe-2.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/isobject-2.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/isstream-0.1.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/istanbul-0.4.5.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/jasmine-2.6.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/jasmine-core-2.6.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/jest-matcher-utils-19.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/jest-validate-19.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/jodid25519-1.0.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/joi-6.10.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/js-base64-2.1.9.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/js-tokens-3.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/js-yaml-3.7.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/js-yaml-3.8.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/jsbn-0.1.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/jsesc-0.5.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/jsesc-1.3.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/json-loader-0.5.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/json-schema-0.2.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/json-stable-stringify-1.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/json-stringify-safe-5.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/json3-3.3.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/json5-0.5.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/jsonify-0.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/jsprim-1.4.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/kind-of-3.2.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/lazy-cache-1.0.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/lcid-1.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/leven-2.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/levn-0.3.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/load-json-file-1.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/loader-utils-0.2.17.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/loader-utils-1.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/lodash-4.16.6.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/lodash-4.17.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/lodash._createcompounder-3.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/lodash._root-3.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/lodash.assign-4.2.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/lodash.camelcase-3.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/lodash.clonedeep-4.5.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/lodash.deburr-3.2.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/lodash.memoize-4.1.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/lodash.uniq-4.5.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/lodash.words-3.2.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/longest-1.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/loose-envify-1.3.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/loud-rejection-1.6.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/lower-case-1.1.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/lru-cache-4.0.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/macaddress-0.2.8.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/map-obj-1.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/math-expression-evaluator-1.2.17.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/media-typer-0.3.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/memory-fs-0.2.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/memory-fs-0.3.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/memory-fs-0.4.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/meow-3.7.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/merge-descriptors-1.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/methods-1.1.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/micromatch-2.3.11.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/mime-1.3.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/mime-1.3.6.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/mime-db-1.27.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/mime-types-2.1.15.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/minimatch-3.0.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/minimist-0.0.8.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/minimist-1.2.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/mkdirp-0.5.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/moment-2.18.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/ms-0.7.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/ms-2.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/nan-2.6.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/ncname-1.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/negotiator-0.6.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/no-case-2.3.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/node-gyp-3.6.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/node-libs-browser-0.7.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/node-pre-gyp-0.6.34.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/node-sass-3.13.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/nodesecurity-npm-utils-5.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/nopt-3.0.6.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/nopt-4.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/normalize-package-data-2.3.8.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/normalize-path-2.1.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/normalize-range-0.1.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/normalize-url-1.9.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/npmlog-4.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/nsp-2.6.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/nth-check-1.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/num2fraction-1.2.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/number-is-nan-1.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/oauth-sign-0.8.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/object-assign-4.1.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/object.omit-2.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/on-finished-2.3.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/on-headers-1.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/once-1.4.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/open-0.0.5.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/optimist-0.6.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/optionator-0.8.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/original-1.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/os-browserify-0.2.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/os-homedir-1.0.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/os-locale-1.4.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/os-tmpdir-1.0.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/osenv-0.1.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/pako-0.2.9.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/param-case-2.1.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/parse-glob-3.0.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/parse-json-2.2.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/parseurl-1.3.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/path-browserify-0.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/path-exists-2.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/path-is-absolute-1.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/path-to-regexp-0.1.7.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/path-type-1.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/pbkdf2-compat-2.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/performance-now-0.2.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/pify-2.3.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/pinkie-2.0.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/pinkie-promise-2.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/pkg-dir-1.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/postcss-5.2.17.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/postcss-6.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/postcss-calc-5.3.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/postcss-colormin-2.2.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/postcss-convert-values-2.6.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/postcss-discard-comments-2.0.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/postcss-discard-duplicates-2.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/postcss-discard-empty-2.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/postcss-discard-overridden-0.1.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/postcss-discard-unused-2.2.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/postcss-filter-plugins-2.0.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/postcss-merge-idents-2.1.7.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/postcss-merge-longhand-2.0.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/postcss-merge-rules-2.1.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/postcss-message-helpers-2.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/postcss-minify-font-values-1.0.5.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/postcss-minify-gradients-1.0.5.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/postcss-minify-params-1.2.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/postcss-minify-selectors-2.1.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/postcss-modules-extract-imports-1.2.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/postcss-modules-local-by-default-1.2.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/postcss-modules-scope-1.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/postcss-modules-values-1.3.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/postcss-normalize-charset-1.1.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/postcss-normalize-url-3.0.8.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/postcss-ordered-values-2.2.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/postcss-reduce-idents-2.4.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/postcss-reduce-initial-1.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/postcss-reduce-transforms-1.0.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/postcss-selector-parser-2.2.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/postcss-svgo-2.1.6.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/postcss-unique-selectors-2.0.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/postcss-value-parser-3.3.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/postcss-zindex-2.2.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/prelude-ls-1.1.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/prepend-http-1.0.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/preserve-0.2.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/prettier-1.3.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/pretty-error-2.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/pretty-format-19.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/private-0.1.7.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/process-0.11.10.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/process-nextick-args-1.0.7.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/proxy-addr-1.1.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/prr-0.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/pseudomap-1.0.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/punycode-1.3.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/punycode-1.4.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/q-1.5.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/qs-6.4.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/query-string-4.3.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/querystring-0.2.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/querystring-es3-0.2.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/querystringify-0.0.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/querystringify-1.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/randomatic-1.1.6.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/range-parser-1.2.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/rc-1.2.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/read-pkg-1.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/read-pkg-up-1.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/readable-stream-1.0.34.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/readable-stream-2.2.9.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/readdirp-2.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/redent-1.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/reduce-css-calc-1.3.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/reduce-function-call-1.0.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/regenerate-1.3.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/regenerator-runtime-0.10.5.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/regex-cache-0.4.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/regexp-quote-0.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/regexpu-core-1.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/regjsgen-0.2.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/regjsparser-0.1.5.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/relateurl-0.2.7.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/remove-trailing-separator-1.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/renderkid-2.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/repeat-element-1.1.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/repeat-string-1.6.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/repeating-2.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/request-2.81.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/require-directory-2.1.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/require-main-filename-1.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/requires-port-1.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/resolve-1.1.7.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/right-align-0.1.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/rimraf-2.6.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/ripemd160-0.2.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/rw-1.3.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/safe-buffer-5.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/sanitize-html-1.14.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/sass-graph-2.2.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/sass-loader-4.1.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/sax-1.2.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/scss-tokenizer-0.2.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/semver-5.0.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/semver-5.3.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/send-0.15.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/serve-index-1.8.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/serve-static-1.12.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/set-blocking-2.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/set-immediate-shim-1.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/setimmediate-1.0.5.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/setprototypeof-1.0.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/setprototypeof-1.0.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/sha.js-2.2.6.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/signal-exit-3.0.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/slash-1.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/sntp-1.0.9.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/sockjs-0.3.18.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/sockjs-client-1.1.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/sort-keys-1.1.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/source-list-map-0.1.8.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/source-map-0.2.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/source-map-0.4.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/source-map-0.5.6.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/source-map-support-0.4.15.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/spdx-correct-1.0.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/spdx-expression-parse-1.0.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/spdx-license-ids-1.2.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/sprintf-js-1.0.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/sshpk-1.13.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/statuses-1.3.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/stream-browserify-2.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/stream-cache-0.0.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/stream-http-2.7.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/strict-uri-encode-1.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/string-width-1.0.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/string_decoder-0.10.31.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/string_decoder-1.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/stringstream-0.0.5.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/strip-ansi-3.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/strip-bom-2.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/strip-indent-1.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/strip-json-comments-2.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/style-loader-0.13.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/subcommand-2.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/supports-color-2.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/supports-color-3.2.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/svgo-0.7.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/tabletop-1.5.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/tapable-0.1.10.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/tar-2.2.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/tar-pack-3.4.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/timers-browserify-2.0.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/to-arraybuffer-1.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/to-fast-properties-1.0.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/topo-1.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/toposort-1.0.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/tough-cookie-2.3.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/trim-newlines-1.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/trim-right-1.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/tty-browserify-0.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/tunnel-agent-0.6.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/tweetnacl-0.14.5.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/type-check-0.3.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/type-is-1.6.15.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/uglify-js-2.7.5.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/uglify-js-3.0.10.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/uglify-to-browserify-1.0.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/uid-number-0.0.6.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/uniq-1.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/uniqid-4.1.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/uniqs-2.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/unpipe-1.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/upper-case-1.1.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/url-0.11.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/url-parse-1.0.5.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/url-parse-1.1.9.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/util-0.10.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/util-deprecate-1.0.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/utila-0.3.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/utila-0.4.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/utils-merge-1.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/uuid-2.0.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/uuid-3.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/validate-npm-package-license-3.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/vary-1.1.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/vendors-1.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/verror-1.3.6.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/vm-browserify-0.0.4.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/watchpack-0.2.9.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/webpack-1.15.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/webpack-core-0.6.9.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/webpack-dev-middleware-1.10.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/webpack-dev-server-1.16.5.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/webpack-sources-0.1.5.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/websocket-driver-0.6.5.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/websocket-extensions-0.1.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/whet.extend-0.9.9.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/which-1.2.14.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/which-module-1.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/wide-align-1.1.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/window-size-0.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/window-size-0.2.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/wordwrap-0.0.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/wordwrap-0.0.3.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/wordwrap-1.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/wrap-ansi-2.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/wrappy-1.0.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/wreck-6.3.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/xml-char-classes-1.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/xmlhttprequest-1.8.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/xtend-4.0.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/y18n-3.2.1.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/yallist-2.1.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/yaml-loader-0.4.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/yamljs-0.2.10.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/yargs-3.10.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/yargs-5.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/yargs-7.1.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/yargs-parser-3.2.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-packages-offline-cache/yargs-parser-5.0.0.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/radar/radar.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/publish-examples.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/graphing/radar-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/graphing/ref-table-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/models/blip-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/models/quadrant-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/models/radar-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/models/ring-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/support/jasmine.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/util/contentValidator-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/util/inputSanitizer-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/util/ringCalculator-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/util/sheet-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/exceptions/malformedDataError.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/exceptions/sheetNotFoundError.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/graphing/radar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/radar_legend.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/tech-radar-201611-landing-page-wide.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/tw-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/blip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/quadrant.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/radar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/models/ring.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/site.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/stylesheets/_colors.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/stylesheets/_error.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/stylesheets/_fonts.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/stylesheets/_footer.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/stylesheets/_form.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/stylesheets/_header.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/stylesheets/_tip.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/stylesheets/base.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/util/contentValidator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/util/exceptionMessages.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/util/factory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/util/inputSanitizer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/util/ringCalculator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/util/sheet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/radar/radar.yml" afterPath="$PROJECT_DIR$/languages &amp; frameworks.yml" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="tools.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="languages &amp; frameworks.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/languages &amp; frameworks.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>yaml</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/radar/radar.yml" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/site.js" />
+        <option value="$PROJECT_DIR$/src/util/factory.js" />
+        <option value="$PROJECT_DIR$/ci/tasks/dependencies.yml" />
+        <option value="$PROJECT_DIR$/ci/tasks/install.yml" />
+        <option value="$PROJECT_DIR$/ci/tasks/build.yml" />
+        <option value="$PROJECT_DIR$/ci/tasks/tests.yml" />
+        <option value="$PROJECT_DIR$/ci/pipeline.yml" />
+        <option value="$PROJECT_DIR$/languages &amp; frameworks.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1920" />
+    <option name="height" value="1200" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build-your-own-radar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build-your-own-radar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="FullScreen" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/ci/tasks" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="build-your-own-radar" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="build-your-own-radar" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile">
+      <makefile filename="" target="">
+        <envs />
+      </makefile>
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="build-your-own-radar" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="build-your-own-radar" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="build-your-own-radar" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="build-your-own-radar" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="build-your-own-radar" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="build-your-own-radar" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="108ef60a-d3a0-4d53-ad46-2ded75d261c6" name="Default" comment="" />
+      <created>1495795842545</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1495795842545</updated>
+      <workItem from="1495795845682" duration="5793000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5793000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4483955" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957503" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/radar/radar.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/exceptionMessages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/contentValidator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/factory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="26" column="44" lean-forward="false" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci/tasks/build.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci/tasks/install.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci/tasks/tests.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci/pipeline.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="12" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/site.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/radar/radar.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/languages &amp; frameworks.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
