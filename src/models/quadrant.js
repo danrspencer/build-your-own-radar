@@ -1,14 +1,14 @@
-const Quadrant = function (name) {
+const Quadrant = function(name) {
   var self, blips;
 
   self = {};
   blips = [];
 
-  self.name = function () {
+  self.name = function() {
     return name;
   };
 
-  self.add = function (newBlips) {
+  self.add = function(newBlips) {
     if (Array.isArray(newBlips)) {
       blips = blips.concat(newBlips);
     } else {
@@ -16,7 +16,7 @@ const Quadrant = function (name) {
     }
   };
 
-  self.blips = function () {
+  self.blips = function() {
     return blips.slice(0);
   };
 

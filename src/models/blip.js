@@ -1,34 +1,34 @@
-const Blip = function (name, ring, isNew, topic, description) {
+const Blip = function(name, ring, isNew, topic, description) {
   var self, number;
 
   self = {};
   number = -1;
 
-  self.name = function () {
+  self.name = function() {
     return name;
   };
 
-  self.topic = function () {
-    return topic || '';
+  self.topic = function() {
+    return topic || "";
   };
 
-  self.description = function () {
-    return description || '';
+  self.description = function() {
+    return description || "";
   };
 
-  self.isNew = function () {
+  self.isNew = function() {
     return isNew;
   };
 
-  self.ring = function () {
+  self.ring = function() {
     return ring;
   };
 
-  self.number = function () {
+  self.number = function() {
     return number;
   };
 
-  self.setNumber = function (newNumber) {
+  self.setNumber = function(newNumber) {
     number = newNumber;
   };
 

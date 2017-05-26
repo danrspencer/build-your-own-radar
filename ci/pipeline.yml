@@ -1,0 +1,35 @@
+jobs:
+- name: build
+  plan:
+  - get: code
+    trigger: true
+  - get: radar
+    trigger: true
+  - task: install
+    file: code/ci/tasks/install.yml
+  - task: tests
+    file: code/ci/tasks/tests.yml
+  - task: build-radar
+    file: code/ci/tasks/build.yml
+
+resources:
+- name: code
+  type: git
+  source:
+    uri: {{git-repo}}
+    branches: master
+    private_key: {{private-repo-key}}
+
+- name: radar
+  type: git
+  source:
+    uri: {{git-repo}}
+    branches: radar
+    private_key: {{private-repo-key}}
+
+- name: page
+  type: git
+  source:
+    uri: {{git-repo}}
+    branches: gh-pages
+    private_key: {{private-repo-key}}

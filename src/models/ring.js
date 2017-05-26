@@ -1,11 +1,11 @@
-const Ring = function (name, order) {
+const Ring = function(name, order) {
   var self = {};
 
-  self.name = function () {
+  self.name = function() {
     return name;
   };
 
-  self.order = function () {
+  self.order = function() {
     return order;
   };
 

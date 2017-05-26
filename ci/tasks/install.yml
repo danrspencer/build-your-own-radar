@@ -1,0 +1,23 @@
+---
+
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: kkarczmarczyk/node-yarn
+
+inputs:
+- name: code
+
+outputs:
+- name: code-installed
+
+run:
+  path: sh
+  args:
+  - -exc
+  - |
+    cd code
+    yarn install --no-progress
+    mv ./* code-installed/
